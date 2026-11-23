@@ -1,0 +1,125 @@
+.internship-discovery {
+  margin: 35px 0;
+}
+
+.discovery-heading {
+  margin-bottom: 25px;
+}
+
+.discovery-heading > span {
+  color: #6366f1;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.discovery-heading h2 {
+  color: #1e293b;
+  margin: 8px 0;
+}
+
+.discovery-heading p {
+  color: #64748b;
+}
+
+.discovery-card {
+  padding: 28px;
+  border-radius: 16px;
+}
+
+.discovery-card label {
+  display: block;
+  color: #334155;
+  font-weight: 600;
+  margin: 18px 0 8px;
+}
+
+.discovery-card input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.discovery-card h3 {
+  color: #334155;
+  margin: 28px 0 16px;
+}
+
+.discovery-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.discovery-buttons button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.discovery-buttons button:hover {
+  background: #4338ca;
+}
+
+.discovery-note {
+  color: #64748b;
+  font-size: 13px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .discovery-buttons {
+    flex-direction: column;
+  }
+
+  .discovery-buttons button {
+    width: 100%;
+  }
+}
+/* LOCATION PREFERENCES */
+
+.discovery-card select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.discovery-card .remote-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.discovery-card .remote-option input {
+  width: auto;
+  margin: 0;
+  accent-color: #4f46e5;
+}
+.discovery-card > button {
+  padding: 10px 16px;
+  margin-top: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.discovery-card > button:hover {
+  background: #e2e8f0;
+}

@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# macOS and logs
+.DS_Store
+*.log
+coverage/
+
+# Local database exports and personal uploads
+*.sql
+backend/uploads/
